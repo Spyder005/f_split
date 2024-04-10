@@ -1,0 +1,11 @@
+.button-custom {
+    font-size: 14px; /* Adjust the font size */
+    padding: 8px 16px; /* Adjust padding (top/bottom, left/right) */
+    border-radius: 8px; /* Adjust border radius for rounded corners */
+}
+
+.btn-fit-content {
+    white-space: nowrap; /* Prevent content from wrapping */
+    overflow: hidden; /* Hide overflow if content exceeds button width */
+    text-overflow: ellipsis; /* Show ellipsis (...) if content is truncated */
+}
